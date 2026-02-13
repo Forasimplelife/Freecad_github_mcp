@@ -256,7 +256,7 @@ Copilot Chat で：
 **対策：**
 1. UV がインストールされているか確認：`uv --version`
 2. mcp.json でフルパスを指定
-3. 例：`"C:/Users/Zhang/.local/bin/uv.exe"`
+3. 例：`"C:/Users/<YourUsername>/.local/bin/uv.exe"`
 
 ### 問題2：コマンドが無反応
 

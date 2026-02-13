@@ -189,7 +189,7 @@ Open `mcp.json` in VS Code and add the FreeCAD MCP server configuration to the `
 ```json
 "freecad-mcp": {
 	"type": "stdio",
-	"command": "C:/Users/Zhang/.local/bin/uv.exe",
+	"command": "C:/Users/<YourUsername>/.local/bin/uv.exe",
 	"args": [
 		"--directory",
 		"C:/Users/Zhang/freecad-mcp",
@@ -203,7 +203,7 @@ Open `mcp.json` in VS Code and add the FreeCAD MCP server configuration to the `
 ```json
 "freecad-mcp": {
 	"type": "stdio",
-	"command": "/Users/zhang/.local/bin/uv",
+	"command": "/Users/<YourUsername>/.local/bin/uv",
 	"args": [
 		"--directory",
 		"/Users/zhang/freecad-mcp",
@@ -308,7 +308,7 @@ Here are the main FreeCAD MCP commands you can use in Copilot Chat:
 1. Make sure UV is installed: `uv --version`
 2. Get UV's full path: `(Get-Command uv).Source` (Windows PowerShell)
 3. Use the **full absolute path** in `mcp.json`, not just `uv`
-4. Example: `"C:/Users/Zhang/.local/bin/uv.exe"`
+4. Example: `"C:/Users/<YourUsername>/.local/bin/uv.exe"`
 
 ### Issue 2: Commands Keep Spinning (No Response)
 

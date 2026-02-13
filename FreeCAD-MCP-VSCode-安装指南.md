@@ -256,7 +256,7 @@ which uv
 **解决：**
 1. 确认已安装 UV：`uv --version`
 2. 用完整路径写在 mcp.json
-3. 例：`"C:/Users/Zhang/.local/bin/uv.exe"`
+3. 例：`"C:/Users/<YourUsername>/.local/bin/uv.exe"`
 
 ### 问题2：命令一直转圈无响应
 
