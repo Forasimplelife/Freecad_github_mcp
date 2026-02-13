@@ -1,0 +1,19 @@
+__pycache__/
+.notebook/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+
+
+# Ignore all contents under freecad-mcp
+freecad-mcp/**
+
+
+freecad-mcp/
